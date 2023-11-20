@@ -126,7 +126,7 @@ public class CadastroBD {
 
         System.out.print("Informe o ID da pessoa: ");
         int idExcluir = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer
+        scanner.nextLine();
 
         if (tipoExcluir.equalsIgnoreCase("F")) {
             PessoaFisica pessoaFisica = pessoaFisicaDAO.getPessoa(idExcluir);
@@ -155,7 +155,7 @@ public class CadastroBD {
 
         System.out.print("Informe o ID da pessoa: ");
         int idExibirId = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer
+        scanner.nextLine(); 
 
         if (tipoExibirId.equalsIgnoreCase("F")) {
             PessoaFisica pessoaFisica = pessoaFisicaDAO.getPessoa(idExibirId);

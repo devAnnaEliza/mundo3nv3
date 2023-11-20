@@ -75,13 +75,13 @@ public class CadastroBDTeste {
 
     private static PessoaFisica lerDadosPessoaFisica(Scanner scanner) {
         System.out.println("Implemente a leitura dos dados de Pessoa Física aqui.");
-        // Aqui você deve implementar a leitura e criação de um objeto PessoaFisica.
+        
         return null;
     }
 
     private static PessoaJuridica lerDadosPessoaJuridica(Scanner scanner) {
         System.out.println("Implemente a leitura dos dados de Pessoa Jurídica aqui.");
-        // Aqui você deve implementar a leitura e criação de um objeto PessoaJuridica.
+        
         return null;
     }
 
